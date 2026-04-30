@@ -55,7 +55,7 @@ def buscar_vagas_gupy():
     url_api = "https://employability-portal.gupy.io/api/v1/jobs"
     
     filtros_de_busca = [
-        {"nome": "RIO DE JANEIRO", "params": {'state': 'Rio de Janeiro', 'limit': 10}},
+        {"nome": "BELO HORIZONTE", "params": {'state': 'Minas Gerais', 'city': 'Belo Horizonte', 'limit': 10}},
         {"nome": "HOME OFFICE", "params": {'workplaceTypes': 'remote', 'limit': 10}}
     ]
 
